@@ -1,18 +1,17 @@
+header, main, footer {
+	min-width: 855px;
+}
+
+header {
+	background: white;
+}
+
+main {
+	background: white;
+}
+
 body {
 	background: linen;
-	width: 800px;
-	margin: auto;
-}
-
-h1 {
-	color: maroon;
-	text-align: center;
-}
-
-p {
-	color: gray;
-	border: 1px solid gray;
-	padding: 10px;
 }
 
 a {
