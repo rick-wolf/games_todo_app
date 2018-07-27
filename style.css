@@ -1,20 +1,27 @@
 header, main, footer {
-	min-width: 855px;
+	min-width: 855px !important;
 }
 
 header .container, main .container, footer .container {
-	max-width: 855px;
+	max-width: 855px !important;
 	margin: auto;
 }
 
 header {
 	background: white;
 	overflow: auto;
+	height: 50px;
+}
+
+header a {
+	font-family: 'Rajdhani', sans-serif;
 }
 
 header h1 {
 	float: left;
 	width: 570px;
+	font-family: 'Play', sans-serif;
+	font-size: xx-large;
 }
 
 header nav {
@@ -24,29 +31,64 @@ header nav {
 
 .left {
 	float: left;
-	width: 570px;
+	width: 470px;
+	padding-left: 100px;
+	align-content: center;
 }
 
 .right {
 	float: right;
-	width: 285px;
+	width: 185px;
+	padding-right: 100px;
+	align-content: center;
 }
 
 main {
 	background: white;
 	overflow: auto;
+	min-height: 500px;
+}
+
+main p {
+	font-family: 'Rajdhani', sans-serif;
+}
+
+main h2 {
+	font-family: 'Play', sans-serif;
+	font-size: x-large;
+}
+
+main h3 {
+	padding-top: 20px;
+	font-family: 'Play', sans-serif;
+	font-size: large;
 }
 
 body {
 	background: linen;
+
+}
+
+main ul {
+	list-style: circle;
+	font-family: 'Rajdhani', sans-serif;
 }
 
 footer {
+	padding-top: 20px;
 	clear: both;
+	font-family: 'Rajdhani', sans-serif;
+	max-height: 60px;
 }
+
+h5 {
+	font-size: larger;
+}
+
 
 a {
 	text-decoration: none;
+	font-family: 'Rajdhani', sans-serif;
 }
 
 a:hover {
