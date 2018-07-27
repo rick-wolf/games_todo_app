@@ -1,0 +1,42 @@
+header, main, footer {
+	min-width: 855px !important;
+	max-width: 855px !important;
+}
+
+header h1 {
+	float: left;
+	width: 570px;
+}
+
+header p {
+	float: right;
+	width: 285px;
+}
+
+input {
+	border: 10px solid black !important;
+}
+
+
+.comment-input {
+	float: left;
+	width: 570px;
+}
+
+.comments {
+	float: right;
+	width: 285px;
+}
+
+
+.comments p:nth-child(even) {
+	background: lavender;
+}
+
+.comments p:nth-child(odd) {
+	background: gainsboro;
+}
+
+footer {
+	clear: both;
+}
